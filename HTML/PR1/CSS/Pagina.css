@@ -1,0 +1,82 @@
+p {
+  color: rgb(0, 0, 0);
+  margin-right: 600px;
+}
+
+body{
+  background-color: rgb(20, 51, 1);
+  font-size: 20px;
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+}
+
+ul {
+  color: rgb(255, 130, 0);
+}
+
+ol {
+  color: rgb(255, 255, 255);
+}
+mark {
+  background: rgba(8, 255, 45, 0.6);
+}
+.Llibre{
+  display:inline-block;
+}
+.Img{
+  float: left;
+}
+#Resum{
+  float: left;
+}
+
+.referencias {
+  color: rgb(0, 124, 9);
+  display: inline-block;
+}
+/*Pagina & Taula*/
+.pare{
+  display:inline-block;
+}
+.benvinguts{
+  float:left;
+  background-repeat: no repeat;
+  background-size: contain;
+}
+#portada{
+  background-image: url("../../Imagenes/Llibreria/paginas.webp");
+}
+#cercador{
+  background-image:url("../../Imagenes/");
+  text-align: center;
+}
+
+#login{
+  float:right;
+  margin-left: 1000px;
+  margin-right: 0px;
+
+}
+
+#logout{
+  float:right;
+  margin-left: 1200px;
+  margin-right: 0px;
+}
+#taula{
+  text-align:center;
+  border-color:black;
+
+}
+th{
+  color: rgb(8, 255, 0);
+}
+tr{
+  color:Black;
+}
+
+li{
+  color: rgb(8, 255, 0);
+}

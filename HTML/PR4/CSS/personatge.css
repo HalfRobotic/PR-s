@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: red;
+}
+body{
+    background: fixed;
+    background-image: url("../Imagenes/Fondo_Bosque_2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/*
+  !Id o Clase
+*/
+#Fons-nom_png-sexe_png{
+    display: inline-block;
+    --borera:
+    linear-gradient( 
+        to right,
+        rgba(0, 0, 0, 0.850) 0%,
+        rgba(92, 92, 92, 0.805) 100%
+    );
+    background:
+        var(--borera);
+        
+    align-items: center;
+    justify-content: center;
+}
+#Fons-clase-nivell-transfons-name_player{
+    display: inline-block;
+    --borera:
+    linear-gradient( 
+        to right,
+        rgba(0, 0, 0, 0.850) 0%,
+        rgba(92, 92, 92, 0.805) 100%
+    );
+    background:
+        var(--borera);
+
+    align-items: center;
+    justify-content: center;
+}
+#Section_Clase,#Section_Nivell,#Section_Tranfons,#Section_Nom_del_Personatge,#Section_Alineamient{
+    display:inline-block;
+    float: left;
+}
+#fons-DISTRIBUCIO{
+    display: inline-block;
+    --borera:
+    linear-gradient( 
+        to right,
+        rgba(0, 0, 0, 0.850) 0%,
+        rgba(92, 92, 92, 0.805) 100%
+    );
+    --color-fons:
+        rgb(0, 0, 0);
+    background:
+        var(--borera);
+}
+#Rasgos_de_personalitat,#Ideals,#Vinculs,#Defectes{
+   resize: none;
+    
+}
+#btn_envio{
+    color: black;
+    
+}
+#btn_envio :hover{
+    color: red;
+}
+.pare{
+   display: inline-block;
+}
+.section_Rasgos_de_personalitat , .section_Ideals , .section_Vinculs, .section_Defectes{
+    float: left;
+    margin: 5px;
+    
+}
+.Span_Distribucion{
+
+}

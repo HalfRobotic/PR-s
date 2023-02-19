@@ -1,0 +1,308 @@
+* {
+  padding: 10px;
+  margin: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+div .pare {
+  display: inline-block;
+  background: black;
+  justify-content: center;
+}
+
+#success {
+  border-radius: 15px;
+  display: inline-block;
+  border-color: #c3e6cb;
+  border-style: solid;
+  background: #d4edda;
+  color: #155724;
+}
+
+#warning {
+  border-radius: 15px;
+  display: inline-block;
+  border-color: #ffeeba;
+  border-style: solid;
+  background: #fff3cd;
+  color: #856404;
+}
+
+div #danger {
+  border-radius: 15px;
+  display: inline-block;
+  border-color: #f5c6cb;
+  border-style: solid;
+  background: #f8d7da;
+  color: #721c24;
+}
+
+div #dark {
+  border-radius: 15px;
+  display: inline-block;
+  border-color: #c6c8ca;
+  border-style: solid;
+  background: #d6d8d9;
+  color: #1b1e21;
+}
+
+/****************
+EXERCICI 2
+****************/
+div #segonPare {
+  display: inline-block;
+}
+
+#segonPare #primera_fila .Primary {
+  border-radius: 15px;
+  display: inline-block;
+  background: #007bff;
+}
+
+#segonPare #primera_fila .Primary a {
+  color: white;
+}
+
+#segonPare #primera_fila .Success {
+  border-radius: 15px;
+  display: inline-block;
+  background: #28a745;
+}
+
+#segonPare #primera_fila .Success a {
+  color: white;
+}
+
+#segonPare #primera_fila .Warning {
+  border-radius: 15px;
+  display: inline-block;
+  background: #ffc107;
+}
+
+#segonPare #primera_fila .Warning a {
+  color: black;
+}
+
+#segonPare #primera_fila .Danger {
+  border-radius: 15px;
+  display: inline-block;
+  background: #dc3545;
+}
+
+#segonPare #primera_fila .Danger a {
+  color: white;
+}
+
+#segonPare #primera_fila .Black {
+  border-radius: 15px;
+  display: inline-block;
+  background: #343a40;
+}
+
+#segonPare #primera_fila .Black a {
+  color: white;
+}
+
+/**********************
+Segona Fila
+**********************/
+#segonPare #segona_fila .Primary {
+  border-radius: 15px;
+  display: inline-block;
+  background: white;
+  border-color: #007bff;
+}
+
+#segonPare #segona_fila .Primary a {
+  color: #007bff;
+}
+
+#segonPare #segona_fila .Success {
+  border-radius: 15px;
+  display: inline-block;
+  background: white;
+  border-color: #28a745;
+  color: #28a745;
+}
+
+#segonPare #segona_fila .Success a {
+  color: #28a745;
+}
+
+#segonPare #segona_fila .Warning {
+  border-radius: 15px;
+  display: inline-block;
+  background: white;
+  border-color: #ffc107;
+}
+
+#segonPare #segona_fila .Warning a {
+  color: #ffc107;
+}
+
+#segonPare #segona_fila .Danger {
+  border-radius: 15px;
+  display: inline-block;
+  background: white;
+  border-color: #dc3545;
+}
+
+#segonPare #segona_fila .Warning a {
+  color: #dc3545;
+}
+
+#segonPare #segona_fila .Black {
+  border-radius: 15px;
+  display: inline-block;
+  background: white;
+  border-color: #343a40;
+}
+
+#segonPare #segona_fila .Warning a {
+  color: #343a40;
+}
+
+/**********************
+EXERCICI 3
+**********************/
+.Bandera {
+  display: inline-block;
+}
+
+.Bandera .blau {
+  display: inline-block;
+  width: 20%;
+  margin: 0 0 0 0;
+  height: 50px;
+  padding: 20px 180px;
+  background: blue;
+}
+
+.Bandera .groc {
+  display: inline-block;
+  margin: 0 0 0 0;
+  width: 20%;
+  height: 50px;
+  padding: 20px 180px;
+  background: yellow;
+}
+
+.Bandera.vermell {
+  display: inline-block;
+  margin: 0 0 0 0;
+  width: 20%;
+  height: 50px;
+  padding: 20px 180px;
+  background: red;
+}
+
+.blau {
+  margin: 0 0 0 0;
+  padding: 20px 180px;
+  height: 50px;
+  background: blue;
+}
+
+.groc {
+  margin: 0 0 0 0;
+  padding: 20px 180px;
+  height: 50px;
+  background: yellow;
+}
+
+.vermell {
+  margin: 0 0 0 0;
+  background: red;
+  height: 50px;
+  padding: 20px 180px;
+}
+
+/**********************
+EXERCICI 4
+**********************/
+.Pare {
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  background-color: #5c94fc;
+  border-right: 5px solid Black;
+  border-top: 5px solid Black;
+  border-bottom: 5px solid Black;
+  border-left: 5px solid Black;
+  border-color: 5px solid Black;
+  padding: 0;
+  margin: 10 10;
+}
+
+.fills {
+  margin: 0;
+  padding: 0;
+  height: 46.25px;
+}
+
+#petit {
+  width: 25%;
+  background-color: #4976c9;
+  border-right: 5px solid Black;
+}
+
+#petit2 {
+  width: 50%;
+  background-color: #375897;
+  border-right: 5px solid Black;
+  border-top: 5px solid Black;
+}
+
+#petit3 {
+  width: 75%;
+  background-color: #243b64;
+  border-right: 5px solid Black;
+  border-top: 5px solid Black;
+}
+
+#petit4 {
+  width: 100%;
+  background-color: #121d32;
+  border-top: 5px solid Black;
+}
+
+/**********************
+EXERCICI 5
+**********************/
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 1.2em;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.titol p {
+  color: #7a7a7a;
+  margin-left: 20px;
+  margin-bottom: 1.2em;
+}
+
+.cita {
+  font-style: italic;
+  /*Podria ficar un sencill margin però no demana un margin superior,
+   llavors millor fer el margin un per un*/
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  background-color: #e7f2fa;
+  color: #444;
+  border: 5px solid #8870FF;
+  padding: 15px;
+}
+
+.ex5 a {
+  color: #8870FF;
+  margin-left: 20px;
+}
+
+.ex5 a:visited {
+  color: #8870FF;
+  margin-left: 20px;
+}

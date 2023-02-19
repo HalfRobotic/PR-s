@@ -1,0 +1,61 @@
+/* *!Neteja de margin y padding y ficar tipus de lletra sans-serif
+*/
+*{
+  
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #713333;
+  font-size: 20px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  margin-right: 600px;
+}
+h1 {
+  color: rgb(255, 0, 0);
+}
+main{
+  height: 1000px;
+  /*background-image: url("../Imagenes/Fondo_Bosque.jpg");*/
+}
+/*
+  ! clases o id
+*/
+
+#Altres{
+  
+}
+.benvinguts{
+  height: 400px;
+  width: 100%;
+  background-size: contain;
+}
+#portada{
+  background-image: url("../Imagenes/cabezera_D&D.jpg");  
+}
+#btn_login{
+  float: right;
+  margin:10px;
+  background: #cf2b2b;
+  border-radius: 3px;
+  border-color: #000000;
+}
+
+#login{
+  text-decoration: none;
+  color: #2b2b2b;
+  float: right;
+  margin: 5px;
+
+}
+
+#logout{
+  float:right;
+  margin-left: 1200px;
+  margin-right: 0px;
+}

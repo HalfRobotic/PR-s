@@ -1,0 +1,89 @@
+
+footer{
+  background-color: #585858;
+  height: 125px;
+}
+/*
+  !Clases o id
+*/
+*{
+  font-family:'Times New Roman', Times, serif;
+  /*
+  *NETEJA
+  */
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+#Capcelera_Esquerra{
+  margin-top: 10px;
+  margin-left: 5px;
+  display: grid;
+  /*
+    TODO: Centrar el nom del personatge
+    padding: 10px;
+  */
+  border-radius: 25px;
+  height: 200px;
+  width: 20%;
+  background-color: grey;
+  float: left;
+}
+#Section_Primera_Fila{
+  height: 50px;
+  background-color: rgb(96, 96, 0);
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  width: 70%;
+  float: left;
+}
+#Section_Segona_Fila{
+  height: 50px;
+  background-color: rgb(96, 96, 0);
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  width: 70%;
+  float: left;
+  
+}
+.Capcelera_General{
+  display: inline-block;
+}
+#Section_Nom_del_Personatge{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+#Section_Nom_del_Personatge label{
+  font-size:large;
+  font-style: italic;
+  
+  
+}
+#Section_Clase_Nivell{
+  margin: 2%;
+  margin-left: 10px;
+  display:inline-flex;
+  float:left;
+  
+}
+
+#Section_Raça,#Section_Alineamient,#Section_Punts_exp{
+  display: inline-block;
+  justify-content: center;
+  align-items: center; 
+  
+  
+}
+
+
+#Section_Distribucio{
+  
+  float: right;
+  background-color: blueviolet;
+}
